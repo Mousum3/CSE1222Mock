@@ -41,7 +41,8 @@ public class Solution2 {
         return describedCells;
     }
 
-    private static class Cell {
+    
+    class Cell {
         private int row;
         private int col;
         private String description;
